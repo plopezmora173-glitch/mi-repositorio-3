@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Verde</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="navbar">
+      <div class="logo">Tienda Verde</div>
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#productos">Producto</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-content">
+      <h1>Productos frescos y listos para tu negocio</h1>
+      <p>Busca por ID y revisa el catálogo con tarjetas animadas y uniformes.</p>
+
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Buscar por ID, ejemplo: P03" />
+        <button id="searchBtn">Buscar</button>
+        <button id="resetBtn" class="secondary">Ver todos</button>
+      </div>
+
+      <p id="resultText" class="result-text"></p>
+    </section>
+  </header>
+
+  <main>
+    <section class="products-section" id="productos">
+      <h2>Catálogo de productos</h2>
+      <div class="products-grid" id="productsGrid"></div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-card">
+        <h2>Contacto</h2>
+        <p>Correo: ventas@tiendaverde.com</p>
+        <p>Teléfono: +57 300 000 0000</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Tienda Verde. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
